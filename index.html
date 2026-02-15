@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q3 Seatwork 2</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-md">
+  <div class="container-fluid">
+
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link nav-text" href="#">Shop</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-text" href="#">Locate</a>
+      </li>
+    </ul>
+
+    <center>
+      <h1>TF Marketplace</h1>
+    </center>
+
+    <form class="d-flex">
+      <input class="form-control me-2" type="text" placeholder="Search">
+      <button class="btn btn-primary" type="button">Search</button>
+    </form>
+
+  </div>
+</nav>
+
+<br>
+
+<center>
+<div id="brands">
+  <form>
+    <h3>
+      <img src="solider.gif" width="50">
+      Need Weapons? Visit Mann Co!
+      <img src="Pyro.gif" width="50">
+
+      <br>
+      Enter your budget to find prices.
+    </h3>
+
+    <input type="text" class="form-control" id="budget" placeholder="Enter budget">
+  </form>
+</div>
+</center>
+
+<br>
+
+<div class="container">
+  <div class="row">
+
+    <div>
+      <button id="buttons" class="btn" onclick="showBrand()">
+        Crates, Weapns, and Discounts:
+      </button>
+      <div id="brand"></div>
+    </div>
+
+    <div>
+      <button id="buttons" class="btn" onclick="showStore()">
+        Available Qualities
+      </button>
+      <div id="stores"></div>
+    </div>
+
+  </div>
+</div>
+
+<br><br><br>
+
+<div class="footer">
+  <hr style="color:white;">
+  <center>&copy; <label style="color:rgb(145, 85, 1);">Joven, Kyan</label></center>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
